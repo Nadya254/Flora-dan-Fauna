@@ -1,0 +1,346 @@
+* {
+	margin: 0px;
+	padding:0;
+	font-family: arial, sans-serif;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+}
+
+.wrapper{
+	min-height: 800px;
+	margin: 0 auto;
+	width : 960px;
+	border: 0px solid;
+	border-bottom-left-radius: 30px;
+	border-bottom-right-radius: 30px;
+	border-top-left-radius: 30px;
+	border-top-right-radius: 30px;
+}
+
+body {
+     color: black;
+     background-size: cover;
+	 background-attachment: 100px;
+     background-repeat: no-repeat;
+	 background-position: center;
+	 background-image:url(../pict/whitebcg.jpg);
+}
+
+.header {
+	width : 960px;
+	height: 250px;
+	border: 5px solid;
+	background-color: teal;
+	border-color:black;
+	margin-top: 15px;
+}
+
+.jam {
+	width: 100px;
+	height: 50px;
+	border: 0px solid;
+	font-size: 25px;
+	float : right;
+}
+
+.tanggal {
+	width: 290px;
+	height: 50px;
+	border: 0px solid;
+	font-size: 25px;
+	float: right;
+}
+
+.logo {
+	width : 300px;
+	height : 200px;
+	border : 5px solid;
+	margin : 1%;
+	float: left;
+	border-color: black;
+}
+
+.logo img {
+	width : 300px;
+	height : 200px; 
+}
+
+.title {
+	width : 600px;
+	height : 200px;
+	border : 5px solid;
+	margin : 1%;
+	float : right;
+	font-size : 20px;
+	font-weight: italic;
+	line-height: 100px;
+	border-color: black;
+	color: white;z
+	
+}
+
+.title img {
+	width : 610px;
+	height : 200px;
+}
+
+.menu {
+	width : 960px;
+	height: 55.5px;
+	border: 3px solid;
+	background-color: teal;
+	border-color:black;
+	margin-right: 100px;
+	margin-top: 10px;
+	margin-bottom:10px;
+}
+
+.menu ul a {
+	color:white;
+	text-decoration:none;
+}
+
+.menu ul li {
+	
+	
+	width: 300px;
+	height: 48px;
+	border : 3px solid;
+	float : left;
+	list-style: none;
+	text-align: center;
+	line-height:50px;
+	color: white;
+	font-size: 20px;
+	font-weight:bold;
+	background-color: green;
+	border-color:black;
+	margin-right:10px;
+}
+
+.menu ul li:hover {
+	background-color:red;
+}
+
+/* Buat si bagian profile content*/
+.menu ul li ul {
+	display:none;
+}
+
+.menu ul li:hover ul {
+	display:block;
+} 	/* Bagian Profile di konten*/
+
+.menu ul li ul li {
+	background-color:green;
+	color:black;
+	font-weight:bold;
+}
+.menu ul li ul li:hover {
+	background-color:red;
+	color:black;
+	font-weight:bold;
+	cursor: pointer;
+	visibility: visible;
+}
+
+.content {
+	width : 960px;
+	height: 900px;
+	border: 5px solid;
+	overflow:hidden;
+	font-size: 18px;
+	background-color:F8E20A;
+	border-color:black;
+}
+
+.content-edukasi {
+	width : 960px;
+	height: 900px;
+	border: 3px solid;
+	overflow:hidden;
+	font-size: 30px;
+	background-color: white;
+	border-color:black;
+	word-spacing: 1pt;
+	font-size: 18pt;
+}
+
+/* canvas maps here */
+#map-canvas {
+	width: 900px;
+	height: 450px;
+  }
+
+.left-content {
+	width : 500px;
+	height: 600px;
+	border : 2px solid;
+	overflow: scroll;
+	margin-top:150px;
+	margin-left: 25px;
+	background-color: white;
+}
+.scroll-edukasi{
+	margin-top:150px;
+	margin-left: 25px;
+	width: 900px;
+	height: 700px;
+	border: 4px solid;
+	overflow: scroll;
+}
+
+.tulisan_login{
+	text-align: center;
+	text-transform: uppercase;
+	color: white;
+}
+ 
+/* Login di halaman awal*/
+.kotak_login{
+	width: 400px;
+	background:black;	
+	margin: 150px auto;
+	padding: 30px 20px;
+	margin-bottom: 50px;
+}
+ 
+label{
+	font-size: 14pt;
+	color: white;
+}
+ 
+.form_login, input[type='text'] {
+	box-sizing : border-box;
+	 width: 100%;
+	padding: 10px;
+	font-size: 12pt;
+	margin-bottom: 10px;
+	color: black;
+}
+ 
+.tombol_login{
+	background: red;
+	color: white;
+	font-size: 15pt;
+	width: 100%;
+	border: none;
+	border-radius: 3px;
+	padding: 10px 20px;
+}
+
+.group {
+	position: relative;
+}
+
+.fa {
+	position: absolute;
+    bottom: 30px;
+    float: right;
+    left: 350px;
+    cursor: pointer;
+}
+
+/* Buat akun di menu hover */
+
+.buat_akun {
+	width: 700px;
+	background:black;	
+	margin: 150px auto;
+	padding: 20px 10px;
+	margin-bottom: 30px;
+}
+ 
+.link{
+	color: #232323;
+	text-decoration: none;
+	font-size: 10pt;
+}
+
+/* Script khusus untuk javascript dan css quiz */
+
+#title {
+    text-decoration: underline;
+}
+
+#quiz {
+    text-indent: 10px;
+    display:none;
+}
+
+.button {
+    border:4px solid;
+    border-radius:5px;
+    width: 40px;
+    padding-left:5px;
+    padding-right: 5px;
+    position: relative;
+    float:right;
+    background-color: #DCDCDC;
+    color: black;
+    margin: 0 2px 0 2px;
+}
+
+.button.active {
+    background-color: #F8F8FF;
+    color: #525252;
+}
+
+button {
+    position: relative;
+    float:right;
+}
+
+.button a {
+    text-decoration: none;
+    color: black;
+}
+
+#container {
+	width:900px;
+	height: 550px;
+    margin:auto;
+    padding: 0 25px 40px 10px;
+    background-color: #ff1e9d;
+    border:4px solid #B0E0E6;
+    border-radius:5px;
+    color: #FFFFFF;
+    font-weight: bold;
+    box-shadow: 5px 5px 5px #888;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#prev {
+    display:none;
+}
+
+#start {
+    display:none;
+    width: 90px;
+}
+
+
+.menu-link{
+	margin: 3px;
+	width : 955px;
+	height: 50px;
+	font-weight: bold;
+	font-size: 30px;
+}
+
+.footer {
+	width : 960px;
+	height: 200px;
+	border: 5px solid;
+	font-size : 25px;
+	font-weight: bold;
+	background-color:teal;
+	border-color:black;
+}

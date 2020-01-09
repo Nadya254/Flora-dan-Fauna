@@ -1,0 +1,47 @@
+*{
+	margin: 0px;
+	padding:0;
+	font-family: arial, sans-serif;
+}
+
+.wrapper{
+	height: 100%;
+	margin: 0 auto;
+	width : 100%;
+	border: 1px solid;
+}
+
+
+
+.menu {
+	position: center;
+	height: 100%;
+	width: 100%;
+	margin-top: 250px;
+}
+
+.box{
+	border: 1px;
+	background-color: #D2691E;
+	min-height:150;
+	width: 500;
+}
+
+
+.menu a  {
+	border: 2px solid;
+	size: 6px;
+	font-size: 30px;
+	color: black;
+	background-color:  	#BDB76B;
+
+}
+
+.menu .btn-right{
+	border: 2px solid;
+	size: 6px;
+	font-size: 30px;
+	color: black;
+	background-color:  	#BDB76B;
+
+}
